@@ -1,0 +1,18 @@
+Name: TagImporter
+Type: S7TagImporter
+OwnerId: ns=2;g=044158a1e50e3ab6591b4e1bc6de5ceb
+Children:
+- Name: IgnoredPLCItems
+  Type: BaseDataVariableType
+  DataType: BaseDataType
+  ValueRank: OneDimension
+  ArrayDimensions: [0]
+- Name: IgnoredHMIItems
+  Type: BaseDataVariableType
+  DataType: NodeId
+  ValueRank: OneDimension
+  ArrayDimensions: [0]
+- Name: FilePath
+  Type: BaseDataVariableType
+  DataType: AbsoluteResourceUri
+  Value: "file:///C:/Users/AFORAFO/OneDrive - Rockwell Automation, Inc/ASEM/- Asem -/Premium HMI/Progetti PLC/Siemens/struct test_DB6construtture/struct test.ap15"
